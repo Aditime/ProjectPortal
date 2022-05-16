@@ -6,7 +6,7 @@ on:
       - master
     paths:
       - 'projecttracker_client/**'
-      - '.github/workflow/**'
+      - '.github/workflows/**'
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
